@@ -1,4 +1,4 @@
-package ua.ithillel.genrefl.model.exporter;
+package ua.ithillel.genrefl.exporter;
 
 import java.io.OutputStream;
 

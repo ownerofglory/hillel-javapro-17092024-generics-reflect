@@ -4,7 +4,7 @@ package ua.ithillel.genrefl.model.person;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import ua.ithillel.genrefl.model.anno.DataValue;
+import ua.ithillel.genrefl.anno.DataValue;
 
 import java.time.LocalDateTime;
 

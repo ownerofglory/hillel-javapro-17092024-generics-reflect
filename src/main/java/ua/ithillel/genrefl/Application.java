@@ -1,37 +1,17 @@
 package ua.ithillel.genrefl;
 
 
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import ua.ithillel.genrefl.model.address.Address;
-import ua.ithillel.genrefl.model.bank.Account;
-import ua.ithillel.genrefl.model.bank.Deposit;
-import ua.ithillel.genrefl.model.bank.Transaction;
-import ua.ithillel.genrefl.model.bank.Withdrawal;
 import ua.ithillel.genrefl.model.container.Container;
-import ua.ithillel.genrefl.model.container.NumberContainer;
-import ua.ithillel.genrefl.model.container.Pair;
-import ua.ithillel.genrefl.model.container.Printer;
-import ua.ithillel.genrefl.model.exporter.DataExporter;
-import ua.ithillel.genrefl.model.exporter.ExcelExporter;
-import ua.ithillel.genrefl.model.payment.CreditCardPayment;
-import ua.ithillel.genrefl.model.payment.DebitCardPayment;
-import ua.ithillel.genrefl.model.payment.PaymentMethod;
-import ua.ithillel.genrefl.model.payment.PaymentProcessor;
+import ua.ithillel.genrefl.exporter.DataExporter;
+import ua.ithillel.genrefl.exporter.ExcelExporter;
 import ua.ithillel.genrefl.model.person.Person;
 import ua.ithillel.genrefl.model.product.Book;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.lang.reflect.*;
 import java.time.LocalDateTime;
 import java.time.Month;
-import java.util.ArrayList;
-import java.util.List;
 
 public class Application {
     public static void main(String[] args) {

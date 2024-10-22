@@ -1,4 +1,4 @@
-package ua.ithillel.genrefl.model.anno;
+package ua.ithillel.genrefl.anno;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

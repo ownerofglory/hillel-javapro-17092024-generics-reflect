@@ -1,12 +1,11 @@
-package ua.ithillel.genrefl.model.exporter;
+package ua.ithillel.genrefl.exporter;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import ua.ithillel.genrefl.model.anno.DataValue;
+import ua.ithillel.genrefl.anno.DataValue;
 
 import java.io.IOException;
 import java.io.OutputStream;
